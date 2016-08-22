@@ -1,0 +1,19 @@
+<nav search_view="search" color="#EE6E19">
+  <view name="search" />
+  <view name="data_models" />
+  <view name="reports" />
+  <view name="alerts" />
+  <collection label="Dashboards">
+    <view name="hunting_stats" />
+    <view name="attack_stats" default='true'/>
+    <view name="village_stats" />
+    <view name="live_logs" />
+  </collection>
+  <collection label="Search views">
+    <view name="mybotrun site" />
+    <a href="https://mybot.run/">mybotrun site</a>
+  </collection>
+  <collection label="all dashboards">
+    <view source="unclassified" />
+  </collection>
+</nav>
